@@ -1,401 +1,403 @@
-DEBUG - 0: Starting simulation with parameters {'mean_interarrival_time': 120, 'num_repair_stations': 2, 'num_inspection_stations': 1, 'min_inspection_time': 15, 'max_inspection_time': 63.0, 'repair_probability': 0.3, 'min_repair_time': 126.0, 'max_repair_time': 270.0, 'random_seed': 107418, 'sim_time': 9600}
-DEBUG - 16.55419624866855: Waited 16.55 minutes for next bus
-DEBUG - 16.55419624866855: Bus 1 arrives for inspection
-DEBUG - 16.55419624866855: Bus 1 starts inspection after waiting for 0.00 minutes
-DEBUG - 55.7714761374708: Bus 1 finishes inspection (took 39.22 minutes)
-DEBUG - 55.7714761374708: Bus 1 does not need repair and leaves
-DEBUG - 129.72265216678505: Waited 113.17 minutes for next bus
-DEBUG - 129.72265216678505: Bus 2 arrives for inspection
-DEBUG - 129.72265216678505: Bus 2 starts inspection after waiting for 0.00 minutes
-DEBUG - 130.85002677012037: Waited 1.13 minutes for next bus
-DEBUG - 130.85002677012037: Bus 3 arrives for inspection
-DEBUG - 192.44659389589356: Bus 2 finishes inspection (took 62.72 minutes)
-DEBUG - 192.44659389589356: Bus 2 does not need repair and leaves
-DEBUG - 192.44659389589356: Bus 3 starts inspection after waiting for 61.60 minutes
-DEBUG - 224.51198666764788: Bus 3 finishes inspection (took 32.07 minutes)
-DEBUG - 224.51198666764788: Bus 3 does not need repair and leaves
-DEBUG - 225.0565372512225: Waited 94.21 minutes for next bus
-DEBUG - 225.0565372512225: Bus 4 arrives for inspection
-DEBUG - 225.0565372512225: Bus 4 starts inspection after waiting for 0.00 minutes
-DEBUG - 280.31551909574387: Bus 4 finishes inspection (took 55.26 minutes)
-DEBUG - 280.31551909574387: Bus 4 does not need repair and leaves
-DEBUG - 565.1412924594316: Waited 340.08 minutes for next bus
-DEBUG - 565.1412924594316: Bus 5 arrives for inspection
-DEBUG - 565.1412924594316: Bus 5 starts inspection after waiting for 0.00 minutes
-DEBUG - 588.292720856212: Bus 5 finishes inspection (took 23.15 minutes)
-DEBUG - 588.292720856212: Bus 5 does not need repair and leaves
-DEBUG - 740.7710557005064: Waited 175.63 minutes for next bus
-DEBUG - 740.7710557005064: Bus 6 arrives for inspection
-DEBUG - 740.7710557005064: Bus 6 starts inspection after waiting for 0.00 minutes
-DEBUG - 798.0967405167355: Bus 6 finishes inspection (took 57.33 minutes)
-DEBUG - 798.0967405167355: Bus 6 does not need repair and leaves
-DEBUG - 799.2849835891765: Waited 58.51 minutes for next bus
-DEBUG - 799.2849835891765: Bus 7 arrives for inspection
-DEBUG - 799.2849835891765: Bus 7 starts inspection after waiting for 0.00 minutes
-DEBUG - 823.897589347207: Bus 7 finishes inspection (took 24.61 minutes)
-DEBUG - 823.897589347207: Bus 7 needs repair
-DEBUG - 823.897589347207: Bus 7 starts repair after waiting for 0.00 minutes
-DEBUG - 919.1076399592956: Waited 119.82 minutes for next bus
-DEBUG - 919.1076399592956: Bus 8 arrives for inspection
-DEBUG - 919.1076399592956: Bus 8 starts inspection after waiting for 0.00 minutes
-DEBUG - 932.4011297965837: Waited 13.29 minutes for next bus
-DEBUG - 932.4011297965837: Bus 9 arrives for inspection
-DEBUG - 951.6891919952218: Bus 8 finishes inspection (took 32.58 minutes)
-DEBUG - 951.6891919952218: Bus 8 does not need repair and leaves
-DEBUG - 951.6891919952218: Bus 9 starts inspection after waiting for 19.29 minutes
-DEBUG - 993.3596419333905: Waited 60.96 minutes for next bus
-DEBUG - 993.3596419333905: Bus 10 arrives for inspection
-DEBUG - 1006.9158711980702: Bus 9 finishes inspection (took 55.23 minutes)
-DEBUG - 1006.9158711980702: Bus 9 does not need repair and leaves
-DEBUG - 1006.9158711980702: Bus 10 starts inspection after waiting for 13.56 minutes
-DEBUG - 1022.0921493490665: Bus 10 finishes inspection (took 15.18 minutes)
-DEBUG - 1022.0921493490665: Bus 10 does not need repair and leaves
-DEBUG - 1023.3939531888354: Bus 7 finishes repair and leaves (took 199.50 minutes)
-DEBUG - 1801.5346386603037: Waited 808.17 minutes for next bus
-DEBUG - 1801.5346386603037: Bus 11 arrives for inspection
-DEBUG - 1801.5346386603037: Bus 11 starts inspection after waiting for 0.00 minutes
-DEBUG - 1818.3951063843062: Bus 11 finishes inspection (took 16.86 minutes)
-DEBUG - 1818.3951063843062: Bus 11 needs repair
-DEBUG - 1818.3951063843062: Bus 11 starts repair after waiting for 0.00 minutes
-DEBUG - 1838.6736913485358: Waited 37.14 minutes for next bus
-DEBUG - 1838.6736913485358: Bus 12 arrives for inspection
-DEBUG - 1838.6736913485358: Bus 12 starts inspection after waiting for 0.00 minutes
-DEBUG - 1880.061802716645: Bus 12 finishes inspection (took 41.39 minutes)
-DEBUG - 1880.061802716645: Bus 12 needs repair
-DEBUG - 1880.061802716645: Bus 12 starts repair after waiting for 0.00 minutes
-DEBUG - 1961.2457701143387: Bus 11 finishes repair and leaves (took 142.85 minutes)
-DEBUG - 2107.356100976449: Bus 12 finishes repair and leaves (took 227.29 minutes)
-DEBUG - 2166.7338091594165: Waited 328.06 minutes for next bus
-DEBUG - 2166.7338091594165: Bus 13 arrives for inspection
-DEBUG - 2166.7338091594165: Bus 13 starts inspection after waiting for 0.00 minutes
-DEBUG - 2182.819207590585: Bus 13 finishes inspection (took 16.09 minutes)
-DEBUG - 2182.819207590585: Bus 13 does not need repair and leaves
-DEBUG - 2700.2964505275445: Waited 533.56 minutes for next bus
-DEBUG - 2700.2964505275445: Bus 14 arrives for inspection
-DEBUG - 2700.2964505275445: Bus 14 starts inspection after waiting for 0.00 minutes
-DEBUG - 2731.0282978017253: Waited 30.73 minutes for next bus
-DEBUG - 2731.0282978017253: Bus 15 arrives for inspection
-DEBUG - 2757.762732919096: Bus 14 finishes inspection (took 57.47 minutes)
-DEBUG - 2757.762732919096: Bus 14 does not need repair and leaves
-DEBUG - 2757.762732919096: Bus 15 starts inspection after waiting for 26.73 minutes
-DEBUG - 2818.1099790922362: Bus 15 finishes inspection (took 60.35 minutes)
-DEBUG - 2818.1099790922362: Bus 15 needs repair
-DEBUG - 2818.1099790922362: Bus 15 starts repair after waiting for 0.00 minutes
-DEBUG - 2832.6985795197693: Waited 101.67 minutes for next bus
-DEBUG - 2832.6985795197693: Bus 16 arrives for inspection
-DEBUG - 2832.6985795197693: Bus 16 starts inspection after waiting for 0.00 minutes
-DEBUG - 2870.4325855747265: Bus 16 finishes inspection (took 37.73 minutes)
-DEBUG - 2870.4325855747265: Bus 16 does not need repair and leaves
-DEBUG - 2911.170630606832: Waited 78.47 minutes for next bus
-DEBUG - 2911.170630606832: Bus 17 arrives for inspection
-DEBUG - 2911.170630606832: Bus 17 starts inspection after waiting for 0.00 minutes
-DEBUG - 2958.439416686692: Bus 17 finishes inspection (took 47.27 minutes)
-DEBUG - 2958.439416686692: Bus 17 does not need repair and leaves
-DEBUG - 2985.5863369376757: Bus 15 finishes repair and leaves (took 167.48 minutes)
-DEBUG - 3295.9320155566843: Waited 384.76 minutes for next bus
-DEBUG - 3295.9320155566843: Bus 18 arrives for inspection
-DEBUG - 3295.9320155566843: Bus 18 starts inspection after waiting for 0.00 minutes
-DEBUG - 3314.65932820496: Bus 18 finishes inspection (took 18.73 minutes)
-DEBUG - 3314.65932820496: Bus 18 does not need repair and leaves
-DEBUG - 3537.9961506242958: Waited 242.06 minutes for next bus
-DEBUG - 3537.9961506242958: Bus 19 arrives for inspection
-DEBUG - 3537.9961506242958: Bus 19 starts inspection after waiting for 0.00 minutes
-DEBUG - 3569.407666653094: Bus 19 finishes inspection (took 31.41 minutes)
-DEBUG - 3569.407666653094: Bus 19 does not need repair and leaves
-DEBUG - 3635.209589802735: Waited 97.21 minutes for next bus
-DEBUG - 3635.209589802735: Bus 20 arrives for inspection
-DEBUG - 3635.209589802735: Bus 20 starts inspection after waiting for 0.00 minutes
-DEBUG - 3656.947706123352: Bus 20 finishes inspection (took 21.74 minutes)
-DEBUG - 3656.947706123352: Bus 20 does not need repair and leaves
-DEBUG - 3790.3294796737296: Waited 155.12 minutes for next bus
-DEBUG - 3790.3294796737296: Bus 21 arrives for inspection
-DEBUG - 3790.3294796737296: Bus 21 starts inspection after waiting for 0.00 minutes
-DEBUG - 3847.2416082698373: Bus 21 finishes inspection (took 56.91 minutes)
-DEBUG - 3847.2416082698373: Bus 21 does not need repair and leaves
-DEBUG - 3899.5128130406774: Waited 109.18 minutes for next bus
-DEBUG - 3899.5128130406774: Bus 22 arrives for inspection
-DEBUG - 3899.5128130406774: Bus 22 starts inspection after waiting for 0.00 minutes
-DEBUG - 3927.294767861066: Bus 22 finishes inspection (took 27.78 minutes)
-DEBUG - 3927.294767861066: Bus 22 does not need repair and leaves
-DEBUG - 3987.5422428793117: Waited 88.03 minutes for next bus
-DEBUG - 3987.5422428793117: Bus 23 arrives for inspection
-DEBUG - 3987.5422428793117: Bus 23 starts inspection after waiting for 0.00 minutes
-DEBUG - 4040.126069568876: Bus 23 finishes inspection (took 52.58 minutes)
-DEBUG - 4040.126069568876: Bus 23 does not need repair and leaves
-DEBUG - 4108.389852587016: Waited 120.85 minutes for next bus
-DEBUG - 4108.389852587016: Bus 24 arrives for inspection
-DEBUG - 4108.389852587016: Bus 24 starts inspection after waiting for 0.00 minutes
-DEBUG - 4151.467022937101: Bus 24 finishes inspection (took 43.08 minutes)
-DEBUG - 4151.467022937101: Bus 24 needs repair
-DEBUG - 4151.467022937101: Bus 24 starts repair after waiting for 0.00 minutes
-DEBUG - 4175.761370634981: Waited 67.37 minutes for next bus
-DEBUG - 4175.761370634981: Bus 25 arrives for inspection
-DEBUG - 4175.761370634981: Bus 25 starts inspection after waiting for 0.00 minutes
-DEBUG - 4217.900133611521: Bus 25 finishes inspection (took 42.14 minutes)
-DEBUG - 4217.900133611521: Bus 25 does not need repair and leaves
-DEBUG - 4343.177712575633: Bus 24 finishes repair and leaves (took 191.71 minutes)
-DEBUG - 4458.951730784318: Waited 283.19 minutes for next bus
-DEBUG - 4458.951730784318: Bus 26 arrives for inspection
-DEBUG - 4458.951730784318: Bus 26 starts inspection after waiting for 0.00 minutes
-DEBUG - 4480.8046354829585: Waited 21.85 minutes for next bus
-DEBUG - 4480.8046354829585: Bus 27 arrives for inspection
-DEBUG - 4516.810502568112: Bus 26 finishes inspection (took 57.86 minutes)
-DEBUG - 4516.810502568112: Bus 26 does not need repair and leaves
-DEBUG - 4516.810502568112: Bus 27 starts inspection after waiting for 36.01 minutes
-DEBUG - 4535.373886163004: Bus 27 finishes inspection (took 18.56 minutes)
-DEBUG - 4535.373886163004: Bus 27 does not need repair and leaves
-DEBUG - 4923.846459438289: Waited 443.04 minutes for next bus
-DEBUG - 4923.846459438289: Bus 28 arrives for inspection
-DEBUG - 4923.846459438289: Bus 28 starts inspection after waiting for 0.00 minutes
-DEBUG - 4960.97023001942: Bus 28 finishes inspection (took 37.12 minutes)
-DEBUG - 4960.97023001942: Bus 28 needs repair
-DEBUG - 4960.97023001942: Bus 28 starts repair after waiting for 0.00 minutes
-DEBUG - 5157.576218832764: Waited 233.73 minutes for next bus
-DEBUG - 5157.576218832764: Bus 29 arrives for inspection
-DEBUG - 5157.576218832764: Bus 29 starts inspection after waiting for 0.00 minutes
-DEBUG - 5175.155595716357: Bus 28 finishes repair and leaves (took 214.19 minutes)
-DEBUG - 5210.280671822847: Bus 29 finishes inspection (took 52.70 minutes)
-DEBUG - 5210.280671822847: Bus 29 does not need repair and leaves
-DEBUG - 5732.57065209818: Waited 574.99 minutes for next bus
-DEBUG - 5732.57065209818: Bus 30 arrives for inspection
-DEBUG - 5732.57065209818: Bus 30 starts inspection after waiting for 0.00 minutes
-DEBUG - 5733.9706432780595: Waited 1.40 minutes for next bus
-DEBUG - 5733.9706432780595: Bus 31 arrives for inspection
-DEBUG - 5738.752326728444: Waited 4.78 minutes for next bus
-DEBUG - 5738.752326728444: Bus 32 arrives for inspection
-DEBUG - 5786.015618454596: Bus 30 finishes inspection (took 53.44 minutes)
-DEBUG - 5786.015618454596: Bus 30 does not need repair and leaves
-DEBUG - 5786.015618454596: Bus 31 starts inspection after waiting for 52.04 minutes
-DEBUG - 5820.845972943101: Bus 31 finishes inspection (took 34.83 minutes)
-DEBUG - 5820.845972943101: Bus 31 does not need repair and leaves
-DEBUG - 5820.845972943101: Bus 32 starts inspection after waiting for 82.09 minutes
-DEBUG - 5865.389877928685: Waited 126.64 minutes for next bus
-DEBUG - 5865.389877928685: Bus 33 arrives for inspection
-DEBUG - 5876.940378091603: Bus 32 finishes inspection (took 56.09 minutes)
-DEBUG - 5876.940378091603: Bus 32 does not need repair and leaves
-DEBUG - 5876.940378091603: Bus 33 starts inspection after waiting for 11.55 minutes
-DEBUG - 5893.889352914681: Waited 28.50 minutes for next bus
-DEBUG - 5893.889352914681: Bus 34 arrives for inspection
-DEBUG - 5902.010585434559: Bus 33 finishes inspection (took 25.07 minutes)
-DEBUG - 5902.010585434559: Bus 33 needs repair
-DEBUG - 5902.010585434559: Bus 33 starts repair after waiting for 0.00 minutes
-DEBUG - 5902.010585434559: Bus 34 starts inspection after waiting for 8.12 minutes
-DEBUG - 5962.072099217746: Bus 34 finishes inspection (took 60.06 minutes)
-DEBUG - 5962.072099217746: Bus 34 needs repair
-DEBUG - 5962.072099217746: Bus 34 starts repair after waiting for 0.00 minutes
-DEBUG - 6015.414138832451: Waited 121.52 minutes for next bus
-DEBUG - 6015.414138832451: Bus 35 arrives for inspection
-DEBUG - 6015.414138832451: Bus 35 starts inspection after waiting for 0.00 minutes
-DEBUG - 6038.972324748466: Bus 35 finishes inspection (took 23.56 minutes)
-DEBUG - 6038.972324748466: Bus 35 does not need repair and leaves
-DEBUG - 6093.079972722835: Bus 33 finishes repair and leaves (took 191.07 minutes)
-DEBUG - 6129.957384934975: Bus 34 finishes repair and leaves (took 167.89 minutes)
-DEBUG - 6457.898452618582: Waited 442.48 minutes for next bus
-DEBUG - 6457.898452618582: Bus 36 arrives for inspection
-DEBUG - 6457.898452618582: Bus 36 starts inspection after waiting for 0.00 minutes
-DEBUG - 6465.860563396109: Waited 7.96 minutes for next bus
-DEBUG - 6465.860563396109: Bus 37 arrives for inspection
-DEBUG - 6517.328103566014: Bus 36 finishes inspection (took 59.43 minutes)
-DEBUG - 6517.328103566014: Bus 36 does not need repair and leaves
-DEBUG - 6517.328103566014: Bus 37 starts inspection after waiting for 51.47 minutes
-DEBUG - 6537.229510207373: Bus 37 finishes inspection (took 19.90 minutes)
-DEBUG - 6537.229510207373: Bus 37 does not need repair and leaves
-DEBUG - 6592.852214690472: Waited 126.99 minutes for next bus
-DEBUG - 6592.852214690472: Bus 38 arrives for inspection
-DEBUG - 6592.852214690472: Bus 38 starts inspection after waiting for 0.00 minutes
-DEBUG - 6643.187322654895: Bus 38 finishes inspection (took 50.34 minutes)
-DEBUG - 6643.187322654895: Bus 38 needs repair
-DEBUG - 6643.187322654895: Bus 38 starts repair after waiting for 0.00 minutes
-DEBUG - 6807.316654191688: Waited 214.46 minutes for next bus
-DEBUG - 6807.316654191688: Bus 39 arrives for inspection
-DEBUG - 6807.316654191688: Bus 39 starts inspection after waiting for 0.00 minutes
-DEBUG - 6836.837627265105: Bus 38 finishes repair and leaves (took 193.65 minutes)
-DEBUG - 6868.940617434342: Bus 39 finishes inspection (took 61.62 minutes)
-DEBUG - 6868.940617434342: Bus 39 does not need repair and leaves
-DEBUG - 6936.808802278857: Waited 129.49 minutes for next bus
-DEBUG - 6936.808802278857: Bus 40 arrives for inspection
-DEBUG - 6936.808802278857: Bus 40 starts inspection after waiting for 0.00 minutes
-DEBUG - 6949.268553537079: Waited 12.46 minutes for next bus
-DEBUG - 6949.268553537079: Bus 41 arrives for inspection
-DEBUG - 6968.343571380734: Waited 19.08 minutes for next bus
-DEBUG - 6968.343571380734: Bus 42 arrives for inspection
-DEBUG - 6979.528360482977: Bus 40 finishes inspection (took 42.72 minutes)
-DEBUG - 6979.528360482977: Bus 40 needs repair
-DEBUG - 6979.528360482977: Bus 40 starts repair after waiting for 0.00 minutes
-DEBUG - 6979.528360482977: Bus 41 starts inspection after waiting for 30.26 minutes
-DEBUG - 6997.44148947078: Bus 41 finishes inspection (took 17.91 minutes)
-DEBUG - 6997.44148947078: Bus 41 needs repair
-DEBUG - 6997.44148947078: Bus 41 starts repair after waiting for 0.00 minutes
-DEBUG - 6997.44148947078: Bus 42 starts inspection after waiting for 29.10 minutes
-DEBUG - 7006.577665429974: Waited 38.23 minutes for next bus
-DEBUG - 7006.577665429974: Bus 43 arrives for inspection
-DEBUG - 7012.993586183038: Bus 42 finishes inspection (took 15.55 minutes)
-DEBUG - 7012.993586183038: Bus 42 does not need repair and leaves
-DEBUG - 7012.993586183038: Bus 43 starts inspection after waiting for 6.42 minutes
-DEBUG - 7037.5367073516045: Bus 43 finishes inspection (took 24.54 minutes)
-DEBUG - 7037.5367073516045: Bus 43 does not need repair and leaves
-DEBUG - 7120.539821368872: Waited 113.96 minutes for next bus
-DEBUG - 7120.539821368872: Bus 44 arrives for inspection
-DEBUG - 7120.539821368872: Bus 44 starts inspection after waiting for 0.00 minutes
-DEBUG - 7135.84509494801: Bus 41 finishes repair and leaves (took 138.40 minutes)
-DEBUG - 7144.8864953857765: Bus 44 finishes inspection (took 24.35 minutes)
-DEBUG - 7144.8864953857765: Bus 44 needs repair
-DEBUG - 7144.8864953857765: Bus 44 starts repair after waiting for 0.00 minutes
-DEBUG - 7161.809553382643: Waited 41.27 minutes for next bus
-DEBUG - 7161.809553382643: Bus 45 arrives for inspection
-DEBUG - 7161.809553382643: Bus 45 starts inspection after waiting for 0.00 minutes
-DEBUG - 7211.197226303477: Bus 40 finishes repair and leaves (took 231.67 minutes)
-DEBUG - 7213.184914993076: Bus 45 finishes inspection (took 51.38 minutes)
-DEBUG - 7213.184914993076: Bus 45 does not need repair and leaves
-DEBUG - 7247.561550790497: Waited 85.75 minutes for next bus
-DEBUG - 7247.561550790497: Bus 46 arrives for inspection
-DEBUG - 7247.561550790497: Bus 46 starts inspection after waiting for 0.00 minutes
-DEBUG - 7289.1999897216465: Bus 46 finishes inspection (took 41.64 minutes)
-DEBUG - 7289.1999897216465: Bus 46 does not need repair and leaves
-DEBUG - 7349.821172314278: Waited 102.26 minutes for next bus
-DEBUG - 7349.821172314278: Bus 47 arrives for inspection
-DEBUG - 7349.821172314278: Bus 47 starts inspection after waiting for 0.00 minutes
-DEBUG - 7350.863343506857: Bus 44 finishes repair and leaves (took 205.98 minutes)
-DEBUG - 7369.0860032517: Waited 19.26 minutes for next bus
-DEBUG - 7369.0860032517: Bus 48 arrives for inspection
-DEBUG - 7396.787912404646: Bus 47 finishes inspection (took 46.97 minutes)
-DEBUG - 7396.787912404646: Bus 47 does not need repair and leaves
-DEBUG - 7396.787912404646: Bus 48 starts inspection after waiting for 27.70 minutes
-DEBUG - 7402.590229430506: Waited 33.50 minutes for next bus
-DEBUG - 7402.590229430506: Bus 49 arrives for inspection
-DEBUG - 7421.222103839776: Bus 48 finishes inspection (took 24.43 minutes)
-DEBUG - 7421.222103839776: Bus 48 does not need repair and leaves
-DEBUG - 7421.222103839776: Bus 49 starts inspection after waiting for 18.63 minutes
-DEBUG - 7430.4147016819525: Waited 27.82 minutes for next bus
-DEBUG - 7430.4147016819525: Bus 50 arrives for inspection
-DEBUG - 7460.053055452849: Bus 49 finishes inspection (took 38.83 minutes)
-DEBUG - 7460.053055452849: Bus 49 does not need repair and leaves
-DEBUG - 7460.053055452849: Bus 50 starts inspection after waiting for 29.64 minutes
-DEBUG - 7483.684956932854: Bus 50 finishes inspection (took 23.63 minutes)
-DEBUG - 7483.684956932854: Bus 50 does not need repair and leaves
-DEBUG - 7598.999734923547: Waited 168.59 minutes for next bus
-DEBUG - 7598.999734923547: Bus 51 arrives for inspection
-DEBUG - 7598.999734923547: Bus 51 starts inspection after waiting for 0.00 minutes
-DEBUG - 7626.603793602981: Bus 51 finishes inspection (took 27.60 minutes)
-DEBUG - 7626.603793602981: Bus 51 does not need repair and leaves
-DEBUG - 7678.554410252411: Waited 79.55 minutes for next bus
-DEBUG - 7678.554410252411: Bus 52 arrives for inspection
-DEBUG - 7678.554410252411: Bus 52 starts inspection after waiting for 0.00 minutes
-DEBUG - 7682.722744304142: Waited 4.17 minutes for next bus
-DEBUG - 7682.722744304142: Bus 53 arrives for inspection
-DEBUG - 7700.518986843886: Waited 17.80 minutes for next bus
-DEBUG - 7700.518986843886: Bus 54 arrives for inspection
-DEBUG - 7732.02787027776: Bus 52 finishes inspection (took 53.47 minutes)
-DEBUG - 7732.02787027776: Bus 52 does not need repair and leaves
-DEBUG - 7732.02787027776: Bus 53 starts inspection after waiting for 49.31 minutes
-DEBUG - 7763.242748871724: Bus 53 finishes inspection (took 31.21 minutes)
-DEBUG - 7763.242748871724: Bus 53 needs repair
-DEBUG - 7763.242748871724: Bus 53 starts repair after waiting for 0.00 minutes
-DEBUG - 7763.242748871724: Bus 54 starts inspection after waiting for 62.72 minutes
-DEBUG - 7791.174598228732: Bus 54 finishes inspection (took 27.93 minutes)
-DEBUG - 7791.174598228732: Bus 54 needs repair
-DEBUG - 7791.174598228732: Bus 54 starts repair after waiting for 0.00 minutes
-DEBUG - 7915.015301149124: Waited 214.50 minutes for next bus
-DEBUG - 7915.015301149124: Bus 55 arrives for inspection
-DEBUG - 7915.015301149124: Bus 55 starts inspection after waiting for 0.00 minutes
-DEBUG - 7922.173004796209: Waited 7.16 minutes for next bus
-DEBUG - 7922.173004796209: Bus 56 arrives for inspection
-DEBUG - 7931.571714112169: Bus 54 finishes repair and leaves (took 140.40 minutes)
-DEBUG - 7942.086883143747: Bus 55 finishes inspection (took 27.07 minutes)
-DEBUG - 7942.086883143747: Bus 55 does not need repair and leaves
-DEBUG - 7942.086883143747: Bus 56 starts inspection after waiting for 19.91 minutes
-DEBUG - 7963.697886647551: Waited 41.52 minutes for next bus
-DEBUG - 7963.697886647551: Bus 57 arrives for inspection
-DEBUG - 7995.605409910496: Bus 56 finishes inspection (took 53.52 minutes)
-DEBUG - 7995.605409910496: Bus 56 does not need repair and leaves
-DEBUG - 7995.605409910496: Bus 57 starts inspection after waiting for 31.91 minutes
-DEBUG - 8031.178259517763: Bus 53 finishes repair and leaves (took 267.94 minutes)
-DEBUG - 8049.155582042041: Waited 85.46 minutes for next bus
-DEBUG - 8049.155582042041: Bus 58 arrives for inspection
-DEBUG - 8050.702869868261: Bus 57 finishes inspection (took 55.10 minutes)
-DEBUG - 8050.702869868261: Bus 57 needs repair
-DEBUG - 8050.702869868261: Bus 57 starts repair after waiting for 0.00 minutes
-DEBUG - 8050.702869868261: Bus 58 starts inspection after waiting for 1.55 minutes
-DEBUG - 8077.674761209402: Bus 58 finishes inspection (took 26.97 minutes)
-DEBUG - 8077.674761209402: Bus 58 does not need repair and leaves
-DEBUG - 8223.158266340542: Bus 57 finishes repair and leaves (took 172.46 minutes)
-DEBUG - 8241.460452840849: Waited 192.30 minutes for next bus
-DEBUG - 8241.460452840849: Bus 59 arrives for inspection
-DEBUG - 8241.460452840849: Bus 59 starts inspection after waiting for 0.00 minutes
-DEBUG - 8285.909354733043: Bus 59 finishes inspection (took 44.45 minutes)
-DEBUG - 8285.909354733043: Bus 59 does not need repair and leaves
-DEBUG - 8310.053643029458: Waited 68.59 minutes for next bus
-DEBUG - 8310.053643029458: Bus 60 arrives for inspection
-DEBUG - 8310.053643029458: Bus 60 starts inspection after waiting for 0.00 minutes
-DEBUG - 8367.337171968215: Bus 60 finishes inspection (took 57.28 minutes)
-DEBUG - 8367.337171968215: Bus 60 does not need repair and leaves
-DEBUG - 8396.178276100289: Waited 86.12 minutes for next bus
-DEBUG - 8396.178276100289: Bus 61 arrives for inspection
-DEBUG - 8396.178276100289: Bus 61 starts inspection after waiting for 0.00 minutes
-DEBUG - 8415.989399053627: Bus 61 finishes inspection (took 19.81 minutes)
-DEBUG - 8415.989399053627: Bus 61 does not need repair and leaves
-DEBUG - 8474.095989338317: Waited 77.92 minutes for next bus
-DEBUG - 8474.095989338317: Bus 62 arrives for inspection
-DEBUG - 8474.095989338317: Bus 62 starts inspection after waiting for 0.00 minutes
-DEBUG - 8486.234221977817: Waited 12.14 minutes for next bus
-DEBUG - 8486.234221977817: Bus 63 arrives for inspection
-DEBUG - 8497.137565738081: Bus 62 finishes inspection (took 23.04 minutes)
-DEBUG - 8497.137565738081: Bus 62 needs repair
-DEBUG - 8497.137565738081: Bus 62 starts repair after waiting for 0.00 minutes
-DEBUG - 8497.137565738081: Bus 63 starts inspection after waiting for 10.90 minutes
-DEBUG - 8528.101400378466: Bus 63 finishes inspection (took 30.96 minutes)
-DEBUG - 8528.101400378466: Bus 63 needs repair
-DEBUG - 8528.101400378466: Bus 63 starts repair after waiting for 0.00 minutes
-DEBUG - 8596.115776786666: Waited 109.88 minutes for next bus
-DEBUG - 8596.115776786666: Bus 64 arrives for inspection
-DEBUG - 8596.115776786666: Bus 64 starts inspection after waiting for 0.00 minutes
-DEBUG - 8598.010864155423: Waited 1.90 minutes for next bus
-DEBUG - 8598.010864155423: Bus 65 arrives for inspection
-DEBUG - 8631.743858756674: Bus 64 finishes inspection (took 35.63 minutes)
-DEBUG - 8631.743858756674: Bus 64 does not need repair and leaves
-DEBUG - 8631.743858756674: Bus 65 starts inspection after waiting for 33.73 minutes
-DEBUG - 8672.598429794076: Bus 65 finishes inspection (took 40.85 minutes)
-DEBUG - 8672.598429794076: Bus 65 needs repair
-DEBUG - 8705.424814645223: Bus 63 finishes repair and leaves (took 177.32 minutes)
-DEBUG - 8705.424814645223: Bus 65 starts repair after waiting for 32.83 minutes
-DEBUG - 8722.546276943836: Bus 62 finishes repair and leaves (took 225.41 minutes)
-DEBUG - 8733.296295375347: Waited 135.29 minutes for next bus
-DEBUG - 8733.296295375347: Bus 66 arrives for inspection
-DEBUG - 8733.296295375347: Bus 66 starts inspection after waiting for 0.00 minutes
-DEBUG - 8784.667088565766: Bus 66 finishes inspection (took 51.37 minutes)
-DEBUG - 8784.667088565766: Bus 66 does not need repair and leaves
-DEBUG - 8824.838729071067: Waited 91.54 minutes for next bus
-DEBUG - 8824.838729071067: Bus 67 arrives for inspection
-DEBUG - 8824.838729071067: Bus 67 starts inspection after waiting for 0.00 minutes
-DEBUG - 8851.427061988641: Bus 65 finishes repair and leaves (took 146.00 minutes)
-DEBUG - 8877.047502376192: Bus 67 finishes inspection (took 52.21 minutes)
-DEBUG - 8877.047502376192: Bus 67 needs repair
-DEBUG - 8877.047502376192: Bus 67 starts repair after waiting for 0.00 minutes
-DEBUG - 8973.190187882172: Waited 148.35 minutes for next bus
-DEBUG - 8973.190187882172: Bus 68 arrives for inspection
-DEBUG - 8973.190187882172: Bus 68 starts inspection after waiting for 0.00 minutes
-DEBUG - 9020.527799952239: Bus 68 finishes inspection (took 47.34 minutes)
-DEBUG - 9020.527799952239: Bus 68 needs repair
-DEBUG - 9020.527799952239: Bus 68 starts repair after waiting for 0.00 minutes
-DEBUG - 9023.967867667823: Bus 67 finishes repair and leaves (took 146.92 minutes)
-DEBUG - 9186.87058500819: Bus 68 finishes repair and leaves (took 166.34 minutes)
-DEBUG - 9214.95470042921: Waited 241.76 minutes for next bus
-DEBUG - 9214.95470042921: Bus 69 arrives for inspection
-DEBUG - 9214.95470042921: Bus 69 starts inspection after waiting for 0.00 minutes
-DEBUG - 9267.655315714353: Bus 69 finishes inspection (took 52.70 minutes)
-DEBUG - 9267.655315714353: Bus 69 does not need repair and leaves
-DEBUG - 9324.458820062448: Waited 109.50 minutes for next bus
-DEBUG - 9324.458820062448: Bus 70 arrives for inspection
-DEBUG - 9324.458820062448: Bus 70 starts inspection after waiting for 0.00 minutes
-DEBUG - 9342.479131635613: Bus 70 finishes inspection (took 18.02 minutes)
-DEBUG - 9342.479131635613: Bus 70 needs repair
-DEBUG - 9342.479131635613: Bus 70 starts repair after waiting for 0.00 minutes
-DEBUG - 9506.577077537637: Waited 182.12 minutes for next bus
-DEBUG - 9506.577077537637: Bus 71 arrives for inspection
-DEBUG - 9506.577077537637: Bus 71 starts inspection after waiting for 0.00 minutes
-DEBUG - 9566.047564479322: Bus 71 finishes inspection (took 59.47 minutes)
-DEBUG - 9566.047564479322: Bus 71 does not need repair and leaves
-DEBUG - 9576.494758288767: Waited 69.92 minutes for next bus
-DEBUG - 9576.494758288767: Bus 72 arrives for inspection
-DEBUG - 9576.494758288767: Bus 72 starts inspection after waiting for 0.00 minutes
-DEBUG - 9581.733880153086: Bus 70 finishes repair and leaves (took 239.25 minutes)
+INFO - 0: Starting simulation with parameters {'mean_interarrival_time': 120, 'num_repair_stations': 2, 'num_inspection_stations': 1, 'min_inspection_time': 15, 'max_inspection_time': 63.0, 'repair_probability': 0.3, 'min_repair_time': 126.0, 'max_repair_time': 270.0, 'sim_time': 9600}
+INFO - 112.40365312034271: Waited 112.40 minutes for next bus
+INFO - 112.40365312034271: Bus 1 arrives for inspection
+INFO - 112.40365312034271: Bus 1 starts inspection after waiting for 0.00 minutes
+INFO - 161.44907877044074: Bus 1 finishes inspection (took 49.05 minutes)
+INFO - 161.44907877044074: Bus 1 does not need repair and leaves
+INFO - 184.59904807400773: Waited 72.20 minutes for next bus
+INFO - 184.59904807400773: Bus 2 arrives for inspection
+INFO - 184.59904807400773: Bus 2 starts inspection after waiting for 0.00 minutes
+INFO - 204.99267125534277: Bus 2 finishes inspection (took 20.39 minutes)
+INFO - 204.99267125534277: Bus 2 does not need repair and leaves
+INFO - 342.04527270623805: Waited 157.45 minutes for next bus
+INFO - 342.04527270623805: Bus 3 arrives for inspection
+INFO - 342.04527270623805: Bus 3 starts inspection after waiting for 0.00 minutes
+INFO - 404.3155364783137: Bus 3 finishes inspection (took 62.27 minutes)
+INFO - 404.3155364783137: Bus 3 does not need repair and leaves
+INFO - 444.1522381620531: Waited 102.11 minutes for next bus
+INFO - 444.1522381620531: Bus 4 arrives for inspection
+INFO - 444.1522381620531: Bus 4 starts inspection after waiting for 0.00 minutes
+INFO - 472.15770677278437: Bus 4 finishes inspection (took 28.01 minutes)
+INFO - 472.15770677278437: Bus 4 needs repair
+INFO - 472.15770677278437: Bus 4 starts repair after waiting for 0.00 minutes
+INFO - 574.3344294299648: Waited 130.18 minutes for next bus
+INFO - 574.3344294299648: Bus 5 arrives for inspection
+INFO - 574.3344294299648: Bus 5 starts inspection after waiting for 0.00 minutes
+INFO - 607.2107388596415: Bus 5 finishes inspection (took 32.88 minutes)
+INFO - 607.2107388596415: Bus 5 needs repair
+INFO - 607.2107388596415: Bus 5 starts repair after waiting for 0.00 minutes
+INFO - 614.2702939236825: Waited 39.94 minutes for next bus
+INFO - 614.2702939236825: Bus 6 arrives for inspection
+INFO - 614.2702939236825: Bus 6 starts inspection after waiting for 0.00 minutes
+INFO - 630.5948072149744: Bus 6 finishes inspection (took 16.32 minutes)
+INFO - 630.5948072149744: Bus 6 does not need repair and leaves
+INFO - 680.1326581845374: Bus 4 finishes repair and leaves (took 207.97 minutes)
+INFO - 857.4469123441411: Waited 243.18 minutes for next bus
+INFO - 857.4469123441411: Bus 7 arrives for inspection
+INFO - 857.4469123441411: Bus 7 starts inspection after waiting for 0.00 minutes
+INFO - 869.8334065243072: Bus 5 finishes repair and leaves (took 262.62 minutes)
+INFO - 886.424428418862: Bus 7 finishes inspection (took 28.98 minutes)
+INFO - 886.424428418862: Bus 7 does not need repair and leaves
+INFO - 1157.0131005559958: Waited 299.57 minutes for next bus
+INFO - 1157.0131005559958: Bus 8 arrives for inspection
+INFO - 1157.0131005559958: Bus 8 starts inspection after waiting for 0.00 minutes
+INFO - 1178.0949691304947: Bus 8 finishes inspection (took 21.08 minutes)
+INFO - 1178.0949691304947: Bus 8 does not need repair and leaves
+INFO - 1364.6237597728607: Waited 207.61 minutes for next bus
+INFO - 1364.6237597728607: Bus 9 arrives for inspection
+INFO - 1364.6237597728607: Bus 9 starts inspection after waiting for 0.00 minutes
+INFO - 1385.8455211895603: Bus 9 finishes inspection (took 21.22 minutes)
+INFO - 1385.8455211895603: Bus 9 does not need repair and leaves
+INFO - 1467.70916834647: Waited 103.09 minutes for next bus
+INFO - 1467.70916834647: Bus 10 arrives for inspection
+INFO - 1467.70916834647: Bus 10 starts inspection after waiting for 0.00 minutes
+INFO - 1499.1402146001133: Bus 10 finishes inspection (took 31.43 minutes)
+INFO - 1499.1402146001133: Bus 10 does not need repair and leaves
+INFO - 1641.8546481377848: Waited 174.15 minutes for next bus
+INFO - 1641.8546481377848: Bus 11 arrives for inspection
+INFO - 1641.8546481377848: Bus 11 starts inspection after waiting for 0.00 minutes
+INFO - 1682.7278003911147: Bus 11 finishes inspection (took 40.87 minutes)
+INFO - 1682.7278003911147: Bus 11 does not need repair and leaves
+INFO - 1708.2890814063956: Waited 66.43 minutes for next bus
+INFO - 1708.2890814063956: Bus 12 arrives for inspection
+INFO - 1708.2890814063956: Bus 12 starts inspection after waiting for 0.00 minutes
+INFO - 1745.7246834769517: Bus 12 finishes inspection (took 37.44 minutes)
+INFO - 1745.7246834769517: Bus 12 does not need repair and leaves
+INFO - 1750.356028876316: Waited 42.07 minutes for next bus
+INFO - 1750.356028876316: Bus 13 arrives for inspection
+INFO - 1750.356028876316: Bus 13 starts inspection after waiting for 0.00 minutes
+INFO - 1760.0525543225158: Waited 9.70 minutes for next bus
+INFO - 1760.0525543225158: Bus 14 arrives for inspection
+INFO - 1780.2772900793814: Bus 13 finishes inspection (took 29.92 minutes)
+INFO - 1780.2772900793814: Bus 13 does not need repair and leaves
+INFO - 1780.2772900793814: Bus 14 starts inspection after waiting for 20.22 minutes
+INFO - 1833.341703351464: Bus 14 finishes inspection (took 53.06 minutes)
+INFO - 1833.341703351464: Bus 14 does not need repair and leaves
+INFO - 2021.033689740562: Waited 260.98 minutes for next bus
+INFO - 2021.033689740562: Bus 15 arrives for inspection
+INFO - 2021.033689740562: Bus 15 starts inspection after waiting for 0.00 minutes
+INFO - 2038.6658960536497: Bus 15 finishes inspection (took 17.63 minutes)
+INFO - 2038.6658960536497: Bus 15 needs repair
+INFO - 2038.6658960536497: Bus 15 starts repair after waiting for 0.00 minutes
+INFO - 2259.468829645617: Bus 15 finishes repair and leaves (took 220.80 minutes)
+INFO - 2443.5675956039095: Waited 422.53 minutes for next bus
+INFO - 2443.5675956039095: Bus 16 arrives for inspection
+INFO - 2443.5675956039095: Bus 16 starts inspection after waiting for 0.00 minutes
+INFO - 2476.705074703541: Bus 16 finishes inspection (took 33.14 minutes)
+INFO - 2476.705074703541: Bus 16 does not need repair and leaves
+INFO - 2726.371949811386: Waited 282.80 minutes for next bus
+INFO - 2726.371949811386: Bus 17 arrives for inspection
+INFO - 2726.371949811386: Bus 17 starts inspection after waiting for 0.00 minutes
+INFO - 2750.7111608543946: Waited 24.34 minutes for next bus
+INFO - 2750.7111608543946: Bus 18 arrives for inspection
+INFO - 2782.2881365145313: Bus 17 finishes inspection (took 55.92 minutes)
+INFO - 2782.2881365145313: Bus 17 needs repair
+INFO - 2782.2881365145313: Bus 17 starts repair after waiting for 0.00 minutes
+INFO - 2782.2881365145313: Bus 18 starts inspection after waiting for 31.58 minutes
+INFO - 2801.8193729241725: Bus 18 finishes inspection (took 19.53 minutes)
+INFO - 2801.8193729241725: Bus 18 does not need repair and leaves
+INFO - 2908.9696425778197: Bus 17 finishes repair and leaves (took 126.68 minutes)
+INFO - 3062.4100147753275: Waited 311.70 minutes for next bus
+INFO - 3062.4100147753275: Bus 19 arrives for inspection
+INFO - 3062.4100147753275: Bus 19 starts inspection after waiting for 0.00 minutes
+INFO - 3107.218789164459: Waited 44.81 minutes for next bus
+INFO - 3107.218789164459: Bus 20 arrives for inspection
+INFO - 3120.1542272307665: Bus 19 finishes inspection (took 57.74 minutes)
+INFO - 3120.1542272307665: Bus 19 does not need repair and leaves
+INFO - 3120.1542272307665: Bus 20 starts inspection after waiting for 12.94 minutes
+INFO - 3131.922534386177: Waited 24.70 minutes for next bus
+INFO - 3131.922534386177: Bus 21 arrives for inspection
+INFO - 3139.3864207945835: Bus 20 finishes inspection (took 19.23 minutes)
+INFO - 3139.3864207945835: Bus 20 does not need repair and leaves
+INFO - 3139.3864207945835: Bus 21 starts inspection after waiting for 7.46 minutes
+INFO - 3143.4120253119695: Waited 11.49 minutes for next bus
+INFO - 3143.4120253119695: Bus 22 arrives for inspection
+INFO - 3165.5751355375287: Waited 22.16 minutes for next bus
+INFO - 3165.5751355375287: Bus 23 arrives for inspection
+INFO - 3170.0627934973354: Bus 21 finishes inspection (took 30.68 minutes)
+INFO - 3170.0627934973354: Bus 21 does not need repair and leaves
+INFO - 3170.0627934973354: Bus 22 starts inspection after waiting for 26.65 minutes
+INFO - 3213.721529996033: Bus 22 finishes inspection (took 43.66 minutes)
+INFO - 3213.721529996033: Bus 22 does not need repair and leaves
+INFO - 3213.721529996033: Bus 23 starts inspection after waiting for 48.15 minutes
+INFO - 3271.0513636385135: Bus 23 finishes inspection (took 57.33 minutes)
+INFO - 3271.0513636385135: Bus 23 needs repair
+INFO - 3271.0513636385135: Bus 23 starts repair after waiting for 0.00 minutes
+INFO - 3354.3758851369853: Waited 188.80 minutes for next bus
+INFO - 3354.3758851369853: Bus 24 arrives for inspection
+INFO - 3354.3758851369853: Bus 24 starts inspection after waiting for 0.00 minutes
+INFO - 3397.2895885399894: Bus 24 finishes inspection (took 42.91 minutes)
+INFO - 3397.2895885399894: Bus 24 needs repair
+INFO - 3397.2895885399894: Bus 24 starts repair after waiting for 0.00 minutes
+INFO - 3451.9832747463915: Waited 97.61 minutes for next bus
+INFO - 3451.9832747463915: Bus 25 arrives for inspection
+INFO - 3451.9832747463915: Bus 25 starts inspection after waiting for 0.00 minutes
+INFO - 3484.4282095720678: Bus 25 finishes inspection (took 32.44 minutes)
+INFO - 3484.4282095720678: Bus 25 does not need repair and leaves
+INFO - 3540.001710663766: Bus 23 finishes repair and leaves (took 268.95 minutes)
+INFO - 3564.421007143754: Waited 112.44 minutes for next bus
+INFO - 3564.421007143754: Bus 26 arrives for inspection
+INFO - 3564.421007143754: Bus 26 starts inspection after waiting for 0.00 minutes
+INFO - 3569.3113460617706: Bus 24 finishes repair and leaves (took 172.02 minutes)
+INFO - 3593.723058354727: Bus 26 finishes inspection (took 29.30 minutes)
+INFO - 3593.723058354727: Bus 26 does not need repair and leaves
+INFO - 3597.520640267132: Waited 33.10 minutes for next bus
+INFO - 3597.520640267132: Bus 27 arrives for inspection
+INFO - 3597.520640267132: Bus 27 starts inspection after waiting for 0.00 minutes
+INFO - 3657.3406844182477: Bus 27 finishes inspection (took 59.82 minutes)
+INFO - 3657.3406844182477: Bus 27 needs repair
+INFO - 3657.3406844182477: Bus 27 starts repair after waiting for 0.00 minutes
+INFO - 3719.2556499671423: Waited 121.74 minutes for next bus
+INFO - 3719.2556499671423: Bus 28 arrives for inspection
+INFO - 3719.2556499671423: Bus 28 starts inspection after waiting for 0.00 minutes
+INFO - 3743.128830364985: Bus 28 finishes inspection (took 23.87 minutes)
+INFO - 3743.128830364985: Bus 28 needs repair
+INFO - 3743.128830364985: Bus 28 starts repair after waiting for 0.00 minutes
+INFO - 3890.0559490043543: Waited 170.80 minutes for next bus
+INFO - 3890.0559490043543: Bus 29 arrives for inspection
+INFO - 3890.0559490043543: Bus 29 starts inspection after waiting for 0.00 minutes
+INFO - 3894.0494677173015: Bus 27 finishes repair and leaves (took 236.71 minutes)
+INFO - 3940.7301515440713: Bus 29 finishes inspection (took 50.67 minutes)
+INFO - 3940.7301515440713: Bus 29 does not need repair and leaves
+INFO - 3982.8926159513626: Bus 28 finishes repair and leaves (took 239.76 minutes)
+INFO - 3995.7853852958065: Waited 105.73 minutes for next bus
+INFO - 3995.7853852958065: Bus 30 arrives for inspection
+INFO - 3995.7853852958065: Bus 30 starts inspection after waiting for 0.00 minutes
+INFO - 4013.5460957466903: Bus 30 finishes inspection (took 17.76 minutes)
+INFO - 4013.5460957466903: Bus 30 needs repair
+INFO - 4013.5460957466903: Bus 30 starts repair after waiting for 0.00 minutes
+INFO - 4275.65943789454: Bus 30 finishes repair and leaves (took 262.11 minutes)
+INFO - 4424.244001454485: Waited 428.46 minutes for next bus
+INFO - 4424.244001454485: Bus 31 arrives for inspection
+INFO - 4424.244001454485: Bus 31 starts inspection after waiting for 0.00 minutes
+INFO - 4445.482388979308: Bus 31 finishes inspection (took 21.24 minutes)
+INFO - 4445.482388979308: Bus 31 does not need repair and leaves
+INFO - 4454.119438192995: Waited 29.88 minutes for next bus
+INFO - 4454.119438192995: Bus 32 arrives for inspection
+INFO - 4454.119438192995: Bus 32 starts inspection after waiting for 0.00 minutes
+INFO - 4479.977566590893: Bus 32 finishes inspection (took 25.86 minutes)
+INFO - 4479.977566590893: Bus 32 does not need repair and leaves
+INFO - 4528.386272955178: Waited 74.27 minutes for next bus
+INFO - 4528.386272955178: Bus 33 arrives for inspection
+INFO - 4528.386272955178: Bus 33 starts inspection after waiting for 0.00 minutes
+INFO - 4585.264772603027: Bus 33 finishes inspection (took 56.88 minutes)
+INFO - 4585.264772603027: Bus 33 does not need repair and leaves
+INFO - 4592.231413693466: Waited 63.85 minutes for next bus
+INFO - 4592.231413693466: Bus 34 arrives for inspection
+INFO - 4592.231413693466: Bus 34 starts inspection after waiting for 0.00 minutes
+INFO - 4592.505860938737: Waited 0.27 minutes for next bus
+INFO - 4592.505860938737: Bus 35 arrives for inspection
+INFO - 4651.084066021351: Bus 34 finishes inspection (took 58.85 minutes)
+INFO - 4651.084066021351: Bus 34 does not need repair and leaves
+INFO - 4651.084066021351: Bus 35 starts inspection after waiting for 58.58 minutes
+INFO - 4710.554021656993: Bus 35 finishes inspection (took 59.47 minutes)
+INFO - 4710.554021656993: Bus 35 does not need repair and leaves
+INFO - 4798.909709948567: Waited 206.40 minutes for next bus
+INFO - 4798.909709948567: Bus 36 arrives for inspection
+INFO - 4798.909709948567: Bus 36 starts inspection after waiting for 0.00 minutes
+INFO - 4827.546426714909: Bus 36 finishes inspection (took 28.64 minutes)
+INFO - 4827.546426714909: Bus 36 does not need repair and leaves
+INFO - 4840.89237007888: Waited 41.98 minutes for next bus
+INFO - 4840.89237007888: Bus 37 arrives for inspection
+INFO - 4840.89237007888: Bus 37 starts inspection after waiting for 0.00 minutes
+INFO - 4897.366316865893: Bus 37 finishes inspection (took 56.47 minutes)
+INFO - 4897.366316865893: Bus 37 does not need repair and leaves
+INFO - 4913.6166466871055: Waited 72.72 minutes for next bus
+INFO - 4913.6166466871055: Bus 38 arrives for inspection
+INFO - 4913.6166466871055: Bus 38 starts inspection after waiting for 0.00 minutes
+INFO - 4944.196755887454: Bus 38 finishes inspection (took 30.58 minutes)
+INFO - 4944.196755887454: Bus 38 does not need repair and leaves
+INFO - 5023.632793888881: Waited 110.02 minutes for next bus
+INFO - 5023.632793888881: Bus 39 arrives for inspection
+INFO - 5023.632793888881: Bus 39 starts inspection after waiting for 0.00 minutes
+INFO - 5034.361967426144: Waited 10.73 minutes for next bus
+INFO - 5034.361967426144: Bus 40 arrives for inspection
+INFO - 5055.463556774243: Waited 21.10 minutes for next bus
+INFO - 5055.463556774243: Bus 41 arrives for inspection
+INFO - 5060.910002760385: Bus 39 finishes inspection (took 37.28 minutes)
+INFO - 5060.910002760385: Bus 39 needs repair
+INFO - 5060.910002760385: Bus 39 starts repair after waiting for 0.00 minutes
+INFO - 5060.910002760385: Bus 40 starts inspection after waiting for 26.55 minutes
+INFO - 5095.656072884498: Bus 40 finishes inspection (took 34.75 minutes)
+INFO - 5095.656072884498: Bus 40 does not need repair and leaves
+INFO - 5095.656072884498: Bus 41 starts inspection after waiting for 40.19 minutes
+INFO - 5125.348294916436: Bus 41 finishes inspection (took 29.69 minutes)
+INFO - 5125.348294916436: Bus 41 does not need repair and leaves
+INFO - 5202.478827816653: Waited 147.02 minutes for next bus
+INFO - 5202.478827816653: Bus 42 arrives for inspection
+INFO - 5202.478827816653: Bus 42 starts inspection after waiting for 0.00 minutes
+INFO - 5221.781689625639: Bus 42 finishes inspection (took 19.30 minutes)
+INFO - 5221.781689625639: Bus 42 does not need repair and leaves
+INFO - 5313.573225191596: Bus 39 finishes repair and leaves (took 252.66 minutes)
+INFO - 5342.731318130778: Waited 140.25 minutes for next bus
+INFO - 5342.731318130778: Bus 43 arrives for inspection
+INFO - 5342.731318130778: Bus 43 starts inspection after waiting for 0.00 minutes
+INFO - 5371.029957429087: Bus 43 finishes inspection (took 28.30 minutes)
+INFO - 5371.029957429087: Bus 43 needs repair
+INFO - 5371.029957429087: Bus 43 starts repair after waiting for 0.00 minutes
+INFO - 5379.943386100417: Waited 37.21 minutes for next bus
+INFO - 5379.943386100417: Bus 44 arrives for inspection
+INFO - 5379.943386100417: Bus 44 starts inspection after waiting for 0.00 minutes
+INFO - 5428.29359957827: Bus 44 finishes inspection (took 48.35 minutes)
+INFO - 5428.29359957827: Bus 44 does not need repair and leaves
+INFO - 5437.192053669587: Waited 57.25 minutes for next bus
+INFO - 5437.192053669587: Bus 45 arrives for inspection
+INFO - 5437.192053669587: Bus 45 starts inspection after waiting for 0.00 minutes
+INFO - 5470.969836335849: Bus 45 finishes inspection (took 33.78 minutes)
+INFO - 5470.969836335849: Bus 45 does not need repair and leaves
+INFO - 5505.153228018725: Bus 43 finishes repair and leaves (took 134.12 minutes)
+INFO - 5866.879748884215: Waited 429.69 minutes for next bus
+INFO - 5866.879748884215: Bus 46 arrives for inspection
+INFO - 5866.879748884215: Bus 46 starts inspection after waiting for 0.00 minutes
+INFO - 5887.893450258571: Bus 46 finishes inspection (took 21.01 minutes)
+INFO - 5887.893450258571: Bus 46 needs repair
+INFO - 5887.893450258571: Bus 46 starts repair after waiting for 0.00 minutes
+INFO - 6049.015928975237: Bus 46 finishes repair and leaves (took 161.12 minutes)
+INFO - 6469.409048961777: Waited 602.53 minutes for next bus
+INFO - 6469.409048961777: Bus 47 arrives for inspection
+INFO - 6469.409048961777: Bus 47 starts inspection after waiting for 0.00 minutes
+INFO - 6472.769265165525: Waited 3.36 minutes for next bus
+INFO - 6472.769265165525: Bus 48 arrives for inspection
+INFO - 6522.404451661975: Bus 47 finishes inspection (took 53.00 minutes)
+INFO - 6522.404451661975: Bus 47 does not need repair and leaves
+INFO - 6522.404451661975: Bus 48 starts inspection after waiting for 49.64 minutes
+INFO - 6562.816177963278: Bus 48 finishes inspection (took 40.41 minutes)
+INFO - 6562.816177963278: Bus 48 does not need repair and leaves
+INFO - 6606.3273037555555: Waited 133.56 minutes for next bus
+INFO - 6606.3273037555555: Bus 49 arrives for inspection
+INFO - 6606.3273037555555: Bus 49 starts inspection after waiting for 0.00 minutes
+INFO - 6651.021888554037: Waited 44.69 minutes for next bus
+INFO - 6651.021888554037: Bus 50 arrives for inspection
+INFO - 6658.390450793131: Bus 49 finishes inspection (took 52.06 minutes)
+INFO - 6658.390450793131: Bus 49 does not need repair and leaves
+INFO - 6658.390450793131: Bus 50 starts inspection after waiting for 7.37 minutes
+INFO - 6678.440356630083: Bus 50 finishes inspection (took 20.05 minutes)
+INFO - 6678.440356630083: Bus 50 does not need repair and leaves
+INFO - 6848.500625338542: Waited 197.48 minutes for next bus
+INFO - 6848.500625338542: Bus 51 arrives for inspection
+INFO - 6848.500625338542: Bus 51 starts inspection after waiting for 0.00 minutes
+INFO - 6872.3510935639715: Bus 51 finishes inspection (took 23.85 minutes)
+INFO - 6872.3510935639715: Bus 51 does not need repair and leaves
+INFO - 6880.222676347239: Waited 31.72 minutes for next bus
+INFO - 6880.222676347239: Bus 52 arrives for inspection
+INFO - 6880.222676347239: Bus 52 starts inspection after waiting for 0.00 minutes
+INFO - 6906.486553101448: Bus 52 finishes inspection (took 26.26 minutes)
+INFO - 6906.486553101448: Bus 52 does not need repair and leaves
+INFO - 6966.623857558472: Waited 86.40 minutes for next bus
+INFO - 6966.623857558472: Bus 53 arrives for inspection
+INFO - 6966.623857558472: Bus 53 starts inspection after waiting for 0.00 minutes
+INFO - 6988.729031111412: Bus 53 finishes inspection (took 22.11 minutes)
+INFO - 6988.729031111412: Bus 53 does not need repair and leaves
+INFO - 7058.013934409942: Waited 91.39 minutes for next bus
+INFO - 7058.013934409942: Bus 54 arrives for inspection
+INFO - 7058.013934409942: Bus 54 starts inspection after waiting for 0.00 minutes
+INFO - 7078.813636203925: Waited 20.80 minutes for next bus
+INFO - 7078.813636203925: Bus 55 arrives for inspection
+INFO - 7094.400219531339: Bus 54 finishes inspection (took 36.39 minutes)
+INFO - 7094.400219531339: Bus 54 does not need repair and leaves
+INFO - 7094.400219531339: Bus 55 starts inspection after waiting for 15.59 minutes
+INFO - 7120.373025670152: Waited 41.56 minutes for next bus
+INFO - 7120.373025670152: Bus 56 arrives for inspection
+INFO - 7126.040362216697: Bus 55 finishes inspection (took 31.64 minutes)
+INFO - 7126.040362216697: Bus 55 does not need repair and leaves
+INFO - 7126.040362216697: Bus 56 starts inspection after waiting for 5.67 minutes
+INFO - 7175.877031189117: Waited 55.50 minutes for next bus
+INFO - 7175.877031189117: Bus 57 arrives for inspection
+INFO - 7177.991356451765: Bus 56 finishes inspection (took 51.95 minutes)
+INFO - 7177.991356451765: Bus 56 needs repair
+INFO - 7177.991356451765: Bus 56 starts repair after waiting for 0.00 minutes
+INFO - 7177.991356451765: Bus 57 starts inspection after waiting for 2.11 minutes
+INFO - 7229.712096326124: Bus 57 finishes inspection (took 51.72 minutes)
+INFO - 7229.712096326124: Bus 57 does not need repair and leaves
+INFO - 7240.760724731834: Waited 64.88 minutes for next bus
+INFO - 7240.760724731834: Bus 58 arrives for inspection
+INFO - 7240.760724731834: Bus 58 starts inspection after waiting for 0.00 minutes
+INFO - 7299.178730104737: Bus 58 finishes inspection (took 58.42 minutes)
+INFO - 7299.178730104737: Bus 58 does not need repair and leaves
+INFO - 7386.467860673459: Bus 56 finishes repair and leaves (took 208.48 minutes)
+INFO - 7483.709875966497: Waited 242.95 minutes for next bus
+INFO - 7483.709875966497: Bus 59 arrives for inspection
+INFO - 7483.709875966497: Bus 59 starts inspection after waiting for 0.00 minutes
+INFO - 7502.372482689743: Bus 59 finishes inspection (took 18.66 minutes)
+INFO - 7502.372482689743: Bus 59 does not need repair and leaves
+INFO - 7502.534113263903: Waited 18.82 minutes for next bus
+INFO - 7502.534113263903: Bus 60 arrives for inspection
+INFO - 7502.534113263903: Bus 60 starts inspection after waiting for 0.00 minutes
+INFO - 7529.659877889186: Bus 60 finishes inspection (took 27.13 minutes)
+INFO - 7529.659877889186: Bus 60 does not need repair and leaves
+INFO - 7736.774137232099: Waited 234.24 minutes for next bus
+INFO - 7736.774137232099: Bus 61 arrives for inspection
+INFO - 7736.774137232099: Bus 61 starts inspection after waiting for 0.00 minutes
+INFO - 7767.347220107336: Bus 61 finishes inspection (took 30.57 minutes)
+INFO - 7767.347220107336: Bus 61 needs repair
+INFO - 7767.347220107336: Bus 61 starts repair after waiting for 0.00 minutes
+INFO - 7832.68384108956: Waited 95.91 minutes for next bus
+INFO - 7832.68384108956: Bus 62 arrives for inspection
+INFO - 7832.68384108956: Bus 62 starts inspection after waiting for 0.00 minutes
+INFO - 7874.195828781472: Bus 62 finishes inspection (took 41.51 minutes)
+INFO - 7874.195828781472: Bus 62 does not need repair and leaves
+INFO - 7988.464579590666: Waited 155.78 minutes for next bus
+INFO - 7988.464579590666: Bus 63 arrives for inspection
+INFO - 7988.464579590666: Bus 63 starts inspection after waiting for 0.00 minutes
+INFO - 8009.090427785522: Bus 61 finishes repair and leaves (took 241.74 minutes)
+INFO - 8045.37623126781: Bus 63 finishes inspection (took 56.91 minutes)
+INFO - 8045.37623126781: Bus 63 does not need repair and leaves
+INFO - 8085.818519860148: Waited 97.35 minutes for next bus
+INFO - 8085.818519860148: Bus 64 arrives for inspection
+INFO - 8085.818519860148: Bus 64 starts inspection after waiting for 0.00 minutes
+INFO - 8127.81271232272: Bus 64 finishes inspection (took 41.99 minutes)
+INFO - 8127.81271232272: Bus 64 needs repair
+INFO - 8127.81271232272: Bus 64 starts repair after waiting for 0.00 minutes
+INFO - 8274.649496803733: Bus 64 finishes repair and leaves (took 146.84 minutes)
+INFO - 8490.120617425948: Waited 404.30 minutes for next bus
+INFO - 8490.120617425948: Bus 65 arrives for inspection
+INFO - 8490.120617425948: Bus 65 starts inspection after waiting for 0.00 minutes
+INFO - 8537.810187203486: Bus 65 finishes inspection (took 47.69 minutes)
+INFO - 8537.810187203486: Bus 65 needs repair
+INFO - 8537.810187203486: Bus 65 starts repair after waiting for 0.00 minutes
+INFO - 8565.580371285409: Waited 75.46 minutes for next bus
+INFO - 8565.580371285409: Bus 66 arrives for inspection
+INFO - 8565.580371285409: Bus 66 starts inspection after waiting for 0.00 minutes
+INFO - 8591.932095715138: Bus 66 finishes inspection (took 26.35 minutes)
+INFO - 8591.932095715138: Bus 66 needs repair
+INFO - 8591.932095715138: Bus 66 starts repair after waiting for 0.00 minutes
+INFO - 8618.038176601362: Waited 52.46 minutes for next bus
+INFO - 8618.038176601362: Bus 67 arrives for inspection
+INFO - 8618.038176601362: Bus 67 starts inspection after waiting for 0.00 minutes
+INFO - 8640.59291536583: Bus 67 finishes inspection (took 22.55 minutes)
+INFO - 8640.59291536583: Bus 67 does not need repair and leaves
+INFO - 8671.435493764384: Waited 53.40 minutes for next bus
+INFO - 8671.435493764384: Bus 68 arrives for inspection
+INFO - 8671.435493764384: Bus 68 starts inspection after waiting for 0.00 minutes
+INFO - 8724.758381975122: Bus 68 finishes inspection (took 53.32 minutes)
+INFO - 8724.758381975122: Bus 68 needs repair
+INFO - 8734.648053913792: Bus 65 finishes repair and leaves (took 196.84 minutes)
+INFO - 8734.648053913792: Bus 68 starts repair after waiting for 9.89 minutes
+INFO - 8845.737052599416: Bus 66 finishes repair and leaves (took 253.80 minutes)
+INFO - 8918.118427848707: Bus 68 finishes repair and leaves (took 183.47 minutes)
+INFO - 8972.056855953559: Waited 300.62 minutes for next bus
+INFO - 8972.056855953559: Bus 69 arrives for inspection
+INFO - 8972.056855953559: Bus 69 starts inspection after waiting for 0.00 minutes
+INFO - 9017.385156909942: Bus 69 finishes inspection (took 45.33 minutes)
+INFO - 9017.385156909942: Bus 69 does not need repair and leaves
+INFO - 9026.201580535537: Waited 54.14 minutes for next bus
+INFO - 9026.201580535537: Bus 70 arrives for inspection
+INFO - 9026.201580535537: Bus 70 starts inspection after waiting for 0.00 minutes
+INFO - 9040.655879132515: Waited 14.45 minutes for next bus
+INFO - 9040.655879132515: Bus 71 arrives for inspection
+INFO - 9076.617268288186: Bus 70 finishes inspection (took 50.42 minutes)
+INFO - 9076.617268288186: Bus 70 does not need repair and leaves
+INFO - 9076.617268288186: Bus 71 starts inspection after waiting for 35.96 minutes
+INFO - 9126.407606797318: Bus 71 finishes inspection (took 49.79 minutes)
+INFO - 9126.407606797318: Bus 71 needs repair
+INFO - 9126.407606797318: Bus 71 starts repair after waiting for 0.00 minutes
+INFO - 9378.151605913557: Waited 337.50 minutes for next bus
+INFO - 9378.151605913557: Bus 72 arrives for inspection
+INFO - 9378.151605913557: Bus 72 starts inspection after waiting for 0.00 minutes
+INFO - 9387.563037167381: Bus 71 finishes repair and leaves (took 261.16 minutes)
+INFO - 9420.251535822023: Bus 72 finishes inspection (took 42.10 minutes)
+INFO - 9420.251535822023: Bus 72 needs repair
+INFO - 9420.251535822023: Bus 72 starts repair after waiting for 0.00 minutes
+INFO - 9567.85325361114: Waited 189.70 minutes for next bus
+INFO - 9567.85325361114: Bus 73 arrives for inspection
+INFO - 9567.85325361114: Bus 73 starts inspection after waiting for 0.00 minutes
