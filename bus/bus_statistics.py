@@ -15,44 +15,79 @@ class Statistics:
         self.repair_queue_sizes=[]
         self.repair_delays=[]
 
+        self.durations=[] # time each bus spent in the system, to calculate average exit rate
+
     def update_inspection_utilization(self):
-        pass
+        change_time=self.env.now
+        elapsed_time=change_time-self.previous_inspection_change_time
+        current_utilization=self.inspection_stations.count
+
+        self.inspection_utilizations.append((current_utilization*elapsed_time,current_utilization,change_time)) #last 2 are for plotting
+        self.previous_inspection_change_time=change_time
 
     def update_repair_utilization(self):
-        pass
+        change_time=self.env.now
+        elapsed_time=change_time-self.previous_repair_change_time
+        current_utilization=self.repair_stations.count
+
+        self.repair_utilizations.append((current_utilization*elapsed_time,current_utilization,change_time)) #last 2 are for plotting
+        self.previous_repair_change_time=change_time
 
     def update_inspection_queue_size(self):
-        pass
+        change_time=self.env.now
+        elapsed_time=change_time-self.previous_inspection_change_time
+        current_queue_size=len(self.inspection_stations.queue)
+
+        self.inspection_queue_sizes.append((current_queue_size*elapsed_time,current_queue_size,change_time)) #last 2 are for plotting
 
     def update_repair_queue_size(self):
-        pass
+        change_time=self.env.now
+        elapsed_time=change_time-self.previous_repair_change_time
+        current_queue_size=len(self.repair_stations.queue)
 
-    def update_inspection_delay(self):
-        pass
+        self.repair_queue_sizes.append((current_queue_size*elapsed_time,current_queue_size,change_time)) #last 2 are for plotting
 
-    def update_repair_delay(self):
-        pass
+    def update_inspection_delay(self,delay):
+        self.inspection_delays.append((delay,self.env.now))
+
+    def update_repair_delay(self,delay):
+        self.repair_delays.append((delay,self.env.now))
+
+    def add_duration(self,duration):
+        self.durations.append((duration,self.env.now))
+
 
     @property
     def mean_inspection_utilization(self):
-        pass
+        weighted_utilizations=[util for (util,_,_) in self.inspection_utilizations]
+        return sum(weighted_utilizations)/self.env.now/self.inspection_stations.capacity
 
     @property
     def mean_repair_utilization(self):
-        pass
+        weighted_utilizations=[util for (util,_,_) in self.repair_utilizations]
+        return sum(weighted_utilizations)/self.env.now/self.repair_stations.capacity
 
     @property
     def mean_inspection_queue_size(self):
-        pass
+        weighted_sizes=[size for (size,_,_) in self.inspection_queue_sizes]
+        return sum(weighted_sizes)/self.env.now
 
     @property
     def mean_repair_queue_size(self):
-        pass
+        weighted_sizes=[size for (size,_,_) in self.repair_queue_sizes]
+        return sum(weighted_sizes)/self.env.now
 
     @property
     def mean_inspection_delay(self):
-        pass
+        delays=[delay for (delay,_) in self.inspection_delays]
+        return sum(delays)/max(len(delays),1)
 
     @property
     def mean_repair_delay(self):
-        pass
+        delays=[delay for (delay,_) in self.repair_delays]
+        return sum(delays)/max(len(delays),1)
+    
+    @property
+    def mean_duration(self):
+        durations=[duration for (duration,_) in self.durations]
+        return sum(durations)/max(len(durations),1)
