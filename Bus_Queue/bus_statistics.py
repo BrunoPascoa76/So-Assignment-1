@@ -17,33 +17,36 @@ class Statistics:
 
         self.durations=[] # time each bus spent in the system, to calculate average exit rate
 
-    def update_inspection_utilization(self):
+    def update_inspection_utilization(self,current_value=None):
         change_time=self.env.now
         elapsed_time=change_time-self.previous_inspection_change_time
-        current_utilization=self.inspection_stations.count
+        current_utilization=current_value if current_value is not None else self.inspection_stations.count
 
         self.inspection_utilizations.append((current_utilization*elapsed_time,current_utilization,change_time)) #last 2 are for plotting
         self.previous_inspection_change_time=change_time
-
-    def update_repair_utilization(self):
+    
+    def update_repair_utilization(self,current_value=None):
         change_time=self.env.now
         elapsed_time=change_time-self.previous_repair_change_time
-        current_utilization=self.repair_stations.count
+        current_utilization=current_value if current_value is not None else self.repair_stations.count
 
         self.repair_utilizations.append((current_utilization*elapsed_time,current_utilization,change_time)) #last 2 are for plotting
         self.previous_repair_change_time=change_time
 
-    def update_inspection_queue_size(self):
+
+    
+
+    def update_inspection_queue_size(self,current_value=None):
         change_time=self.env.now
         elapsed_time=change_time-self.previous_inspection_change_time
-        current_queue_size=len(self.inspection_stations.queue)
+        current_queue_size=current_value if current_value is not None else len(self.inspection_stations.queue)
 
         self.inspection_queue_sizes.append((current_queue_size*elapsed_time,current_queue_size,change_time)) #last 2 are for plotting
 
-    def update_repair_queue_size(self):
+    def update_repair_queue_size(self,current_value=None):
         change_time=self.env.now
         elapsed_time=change_time-self.previous_repair_change_time
-        current_queue_size=len(self.repair_stations.queue)
+        current_queue_size=current_value if current_value is not None else len(self.repair_stations.queue)
 
         self.repair_queue_sizes.append((current_queue_size*elapsed_time,current_queue_size,change_time)) #last 2 are for plotting
 

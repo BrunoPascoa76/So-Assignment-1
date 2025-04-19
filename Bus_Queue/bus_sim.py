@@ -20,6 +20,8 @@ logging.basicConfig(
     filemode="w"
 )
 
+logging.getLogger('matplotlib').setLevel(logging.WARNING)
+
 all_results=[]
 
 MEAN_INTERARRIVAL_TIME = 2*60
@@ -40,9 +42,11 @@ def bus(env, id, inspection_stations, repair_stations,statistics):
     statistics.update_inspection_queue_size() # before (potential) increase due to request
     with inspection_stations.request() as req: 
         
-        statistics.update_inspection_queue_size() #before decrease from exiting yield
-        statistics.update_inspection_utilization() #before increase from leaving queue
+        queue_size=len(inspection_stations.queue)
+        queue_utilization=inspection_stations.count
         yield req # wait in the inspection queue (if needed)
+        statistics.update_inspection_queue_size(queue_size) #before decrease from exiting yield
+        statistics.update_inspection_utilization(queue_utilization) #before increase from leaving queue
 
         exit_queue_time=env.now
         statistics.update_inspection_delay(exit_queue_time-arrival_time)
@@ -64,9 +68,11 @@ def bus(env, id, inspection_stations, repair_stations,statistics):
         with repair_stations.request() as req:
             repair_arrival_time=env.now
 
-            statistics.update_repair_queue_size()
-            statistics.update_repair_utilization()
+            queue_size=len(repair_stations.queue)
+            queue_utilization=repair_stations.count
             yield req
+            statistics.update_repair_queue_size(queue_size)
+            statistics.update_repair_utilization(queue_utilization)
 
             exit_queue_time=env.now
             statistics.update_repair_delay(exit_queue_time-repair_arrival_time)
@@ -215,21 +221,36 @@ if __name__=="__main__":
     info("\n"+"="*40+" Final Results"+"="*40)
 
     info(f"Average inspection queue size: {inspection_queue_size_sum/RUNS:.2f}")
+    print(f"Average inspection queue size: {inspection_queue_size_sum/RUNS:.2f}")
+
     info(f"Average inspection utilization: {inspection_utilization_sum/RUNS:.2f}")
+    print(f"Average inspection utilization: {inspection_utilization_sum/RUNS:.2f}")
+
     info(f"Average repair queue size: {repair_queue_size_sum/RUNS:.2f}")
+    print(f"Average repair queue size: {repair_queue_size_sum/RUNS:.2f}")
+
     info(f"Average repair utilization: {repair_utilization_sum/RUNS:.2f}")
+    print(f"Average repair utilization: {repair_utilization_sum/RUNS:.2f}")
 
     info(f"Average inspection delay: {inspection_delay_sum/RUNS:.2f}")
+    print(f"Average inspection delay: {inspection_delay_sum/RUNS:.2f}")
+
     info(f"Average repair delay: {repair_delay_sum/RUNS:.2f}")
+    print(f"Average repair delay: {repair_delay_sum/RUNS:.2f}")
 
     info(f"Average bus duration: {duration_sum/RUNS}")
+    print(f"Average bus duration: {duration_sum/RUNS}")
+
     info(f"Average bus exit rate: {1/(duration_sum/RUNS)}")
+    print(f"Average bus exit rate: {1/(duration_sum/RUNS)}")
+
     info(f"Average arrival rate: {1/MEAN_INTERARRIVAL_TIME}")
+    print(f"Average arrival rate: {1/MEAN_INTERARRIVAL_TIME}")
+
     info(f"Is overloaded? {1/(duration_sum/RUNS) < 1/MEAN_INTERARRIVAL_TIME}")
+    print(f"Is overloaded? {1/(duration_sum/RUNS) < 1/MEAN_INTERARRIVAL_TIME}")
 
     info("="*40+"END"+"="*40)
-
-    print("DONE")
 
 
 
@@ -279,3 +300,5 @@ if __name__=="__main__":
         ani.save('results/bus_duration.gif',writer='pillow',fps=1)
     
         print("DONE")
+
+    print("END")
