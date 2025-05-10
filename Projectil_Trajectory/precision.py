@@ -6,7 +6,7 @@ import runge_kutta
 import numerical
 
 # Step sizes (logarithmic scale)
-step_sizes = np.logspace(-4, -1, num=500)[::-1]
+step_sizes = np.logspace(-4, -1, num=1000)[::-1]
 
 euler_errors = []
 rk4_errors = []
@@ -89,17 +89,49 @@ log_dt_rk4 = np.log(step_sizes_rk4_final)
 log_err_rk4 = np.log(rk4_errors_final)
 slope_rk4_full, _, _, _, _ = linregress(log_dt_rk4, log_err_rk4)
 
-N_final = 50
-slope_euler_final, _, _, _, _ = linregress(log_dt_euler[len(log_dt_euler) - N_final:len(log_dt_euler)], log_err_euler[len(log_dt_euler) - N_final:len(log_dt_euler)])
-slope_rk4_final, _, _, _, _ = linregress(log_dt_rk4[len(log_dt_rk4) - N_final:len(log_dt_rk4)], log_err_rk4[len(log_dt_rk4) - N_final:len(log_dt_rk4)])
-
+N_final = 100
+slope_euler_final, _, _, _, _ = linregress(
+    log_dt_euler[len(log_dt_euler)-N_final:len(log_dt_euler)], log_err_euler[len(log_dt_euler)-N_final:len(log_dt_euler)]
+)
+slope_rk4_final, _, _, _, _ = linregress(
+    log_dt_rk4[len(log_dt_rk4)-N_final:len(log_dt_rk4)], log_err_rk4[len(log_dt_rk4)-N_final:len(log_dt_rk4)]
+)
 print(f"Slope (Euler, full):             {slope_euler:.2f}")
 print(f"Slope (RK4, full):               {slope_rk4_full:.2f}")
 print(f"Slope (Euler, final {N_final}): {slope_euler_final:.2f}")
 print(f"Slope (RK4, final {N_final}): {slope_rk4_final:.2f}")
 
+# === SLOPE PLOT ===
+slope_euler_list = []
+slope_rk4_list = []
+
+for k in range(2, len(log_dt_euler)):
+    slope_euler_k, _, _, _, _ = linregress(
+        log_dt_euler[len(log_dt_euler)-k:len(log_dt_euler)], log_err_euler[len(log_dt_euler)-k:len(log_dt_euler)]
+    )
+    slope_euler_list.append(slope_euler_k)
+
+for k in range(2, len(log_dt_rk4)):
+    slope_rk4_k, _, _, _, _ = linregress(
+        log_dt_rk4[len(log_dt_rk4)-k:len(log_dt_rk4)], log_err_rk4[len(log_dt_rk4)-k:len(log_dt_rk4)]
+    )
+    slope_rk4_list.append(slope_rk4_k)
+
+plt.figure(figsize=(8, 6))
+plt.plot(log_dt_euler[-len(slope_euler_list):], slope_euler_list, label='Euler slope')
+plt.plot(log_dt_rk4[-len(slope_rk4_list):], slope_rk4_list, label='RK4 slope')
+plt.xlabel("log(Δt)")
+plt.ylabel("slope")
+plt.title("Variation of slope (from end to beginning)")
+plt.grid(True)
+plt.legend()
+plt.tight_layout()
+plt.show()
+
+
+
 # === SLIDING WINDOW SLOPE VARIATION ===
-window = 30
+window = 100
 
 def compute_sliding_slope(log_x, log_y, w):
     slopes = []
