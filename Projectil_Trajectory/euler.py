@@ -39,7 +39,7 @@ def update():
     x, vx = next_x, next_vx
     z, vz = next_z, next_vz
 
-def main(x0=10, z0=5, vx0=70, vz0=30, u_val=3, m_val=1, g_val=9.8, delta=0.001, t_final=4000, if_plot=True):
+def main(x0=10, z0=5, vx0=70, vz0=30, u_val=3, m_val=1, g_val=9.8, delta=1e-3, t_final=10000, if_plot=True):
     global g, u, m, delta_t
 
     g = g_val

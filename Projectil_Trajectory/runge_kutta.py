@@ -68,7 +68,7 @@ def update():
     z += (K1z + 2*K2z + 2*K3z + K4z) / 6
     vz += (K1vz + 2*K2vz + 2*K3vz + K4vz) / 6
 
-def main(x0=10, z0=5, vx0=70, vz0=30, u_val=3, m_val=1, g_val=9.8, delta=0.001, t_final=4000, if_plot=True):
+def main(x0=10, z0=5, vx0=70, vz0=30, u_val=3, m_val=1, g_val=9.8, delta=1e-3, t_final=10000, if_plot=True):
     global g, u, m, delta_t
 
     g = g_val

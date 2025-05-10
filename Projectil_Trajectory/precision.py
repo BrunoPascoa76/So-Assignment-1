@@ -12,7 +12,7 @@ euler_errors = []
 rk4_errors = []
 
 # Base simulation parameters (constant across all runs)
-params_base = dict(x0=10, z0=100, vx0=70, vz0=100, u_val=2, m_val=1, g_val=9.8, t_final=5000)
+params_base = dict(x0=10, z0=5, vx0=70, vz0=30, u_val=3, m_val=1, g_val=9.8, t_final=10000)
 
 # Run simulations for each Δt
 for delta in step_sizes:
