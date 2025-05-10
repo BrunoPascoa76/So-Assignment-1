@@ -6,7 +6,7 @@ import runge_kutta
 import numerical
 
 # Parameters
-params = dict(x0=0, z0=10, vx0=60, vz0=100, u_val=3.5, m_val=5, g_val=9.81, delta=0.0001, t_final=3000)
+params = dict(x0=10, z0=5, vx0=70, vz0=30, u_val=3, m_val=1, g_val=9.8, delta=0.001, t_final=4000)
 
 # Run methods
 ex, ez, evx, evz, et = euler.main(**params, if_plot=False)
