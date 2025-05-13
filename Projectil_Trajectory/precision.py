@@ -14,7 +14,7 @@ rk4_errors = []
 # Base simulation parameters (constant across all runs)
 params_base = dict(x0=10, z0=5, vx0=70, vz0=30, u_val=3, m_val=1, g_val=9.8, t_final=10000)
 
-# Run simulations for each Δt
+# Run simulations for each delta t
 for delta in step_sizes:
     params = params_base.copy()
     params["delta"] = delta
@@ -147,7 +147,7 @@ def compute_sliding_slope(log_x, log_y, w):
 euler_slopes, euler_centers = compute_sliding_slope(log_dt_euler, log_err_euler, window)
 rk4_slopes, rk4_centers = compute_sliding_slope(log_dt_rk4, log_err_rk4, window)
 
-# Plot: slope variation vs log(Δt)
+# Plot: slope variation vs log(delta t)
 plt.figure(figsize=(8, 6))
 plt.plot(euler_centers, euler_slopes, 'o-', label='Euler local slope')
 plt.plot(rk4_centers, rk4_slopes, 's-', label='RK4 local slope')
